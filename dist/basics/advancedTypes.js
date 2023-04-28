@@ -1,6 +1,6 @@
 "use strict";
 var _a;
-var e1 = {
+const e1 = {
     name: "Ajay",
     privileges: ["Create-Server"],
     startDate: new Date(),
@@ -11,14 +11,15 @@ function adds(a, b) {
     }
     return a + b;
 }
-var result = adds("max", "schawas");
+const result = adds("max", "schawas");
 result.split("");
-var fetchedUserData = {
+const fetchedUserData = {
     id: "u1",
     name: "Ajay",
     job: { title: "CEO", desx: "My own company" },
 };
 console.log((_a = fetchedUserData === null || fetchedUserData === void 0 ? void 0 : fetchedUserData.job) === null || _a === void 0 ? void 0 : _a.title);
-var userInput = "";
-var storedData = userInput !== null && userInput !== void 0 ? userInput : 'DEFAULT';
+const userInput = "";
+const storedData = userInput !== null && userInput !== void 0 ? userInput : 'DEFAULT';
 console.log(storedData);
+//# sourceMappingURL=advancedTypes.js.map
